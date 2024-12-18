@@ -4,7 +4,7 @@ import { FiDownload } from "react-icons/fi";
 
 export default function Services() {
   return (
-    <div className="max-w-7xl mt-14 mx-auto flex items-center justify-center gap-6 mb-32">
+    <div className="max-w-7xl mt-14 mx-auto lg:flex items-center justify-center gap-6 mb-32">
         <div>
             <div className="relative bg-slate-50 flex flex-col justify-center rounded-3xl mx-auto px-14 pb-10">
                 <div className="relative -top-20">

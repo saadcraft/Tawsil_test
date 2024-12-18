@@ -3,7 +3,7 @@ import { FiDownload } from "react-icons/fi";
 
 export default function Hiring() {
   return (
-    <div className="max-w-7xl mt-14 mx-auto flex items-center justify-center gap-6">
+    <div className="max-w-7xl mt-14 mx-auto lg:flex items-center justify-center gap-6">
         <div className="bg-gradient-to-r w-1/2 from-transparent rounded-e-3xl p-10 to-fifth">
             <div className="text-5xl text-right font-bold pt-44 pb-36">
                 <p>We are</p>
