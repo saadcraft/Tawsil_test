@@ -1,8 +1,9 @@
 "use client"
 
-import React , {useEffect, useRef} from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FaGooglePlay, FaApple } from "react-icons/fa";
+import Image from 'next/image';
 
 export default function HeroSection() {
     
@@ -42,9 +43,9 @@ export default function HeroSection() {
                     
                     }}
                     className="mySwiper">
-                    <SwiperSlide className='md:ml-20 ml-[110px] mt-10'><img className="" src="./iPhone 14 Pro (2).png" alt=""/></SwiperSlide>
-                    <SwiperSlide ><img className="md:-ml-14 -ml-16" src="./iPhone 14 Pro.png" alt=""/></SwiperSlide>
-                    <SwiperSlide ><img className="mt-10 md:-ml-16 -ml-[96px]" src="./iPhone 14 Pro (1).png" alt=""/></SwiperSlide>
+                    <SwiperSlide className='md:ml-20 ml-[110px] mt-10'><Image width={200} height={200} src="/iPhone14Pro.png" alt=""/></SwiperSlide>
+                    <SwiperSlide ><Image width={250} height={250} className="md:-ml-25 -ml-16" src="/iPhone14Pro2.png" alt=""/></SwiperSlide>
+                    <SwiperSlide ><Image width={200} height={200} className="mt-10 md:-ml-16 -ml-[90px]" src="/iPhone 14 Pro (1).png" alt=""/></SwiperSlide>
                 </Swiper>
             </div>
         </div>
