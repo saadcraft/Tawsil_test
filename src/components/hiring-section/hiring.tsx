@@ -3,6 +3,7 @@
 import React , {useEffect , useState}from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Navigation } from "swiper/modules";
 import { IoIosArrowForward, IoIosArrowBack , IoIosSend } from "react-icons/io";
 
@@ -70,7 +71,7 @@ export default function HiringSection() {
                     )}
                     <SwiperSlide >
                         <div className="relative z-20 top-20 flex justify-center">
-                            <img src="./TAWSILSTAR.svg" alt="" className="w-72" />
+                            <Image width={100} height={100} src="./TAWSILSTAR.svg" alt="" className="w-72" />
                         </div>
                         <div className="relative -top-20 bg-slate-50 flex flex-col w-full justify-center rounded-3xl mx-auto pt-40 px-5 pb-5"> 
                             <div className="text-center ">
@@ -82,7 +83,7 @@ export default function HiringSection() {
                     </SwiperSlide>
                     <SwiperSlide >
                         <div className="relative z-20 top-20 flex justify-center">
-                            <img src="./TAWSILSTAR.svg" alt="" className="w-72" />
+                            <Image width={100} height={100}src="./TAWSILSTAR.svg" alt="" className="w-72" />
                         </div>
                         <div className="relative -top-20 bg-slate-50 flex flex-col w-full justify-center rounded-3xl mx-auto pt-40 px-5 pb-5"> 
                             <div className="text-center ">
@@ -94,7 +95,7 @@ export default function HiringSection() {
                     </SwiperSlide>
                     <SwiperSlide >
                         <div className="relative z-20 top-20 flex justify-center">
-                            <img src="./TAWSILSTAR.svg" alt="" className="w-72" />
+                            <Image width={100} height={100} src="./TAWSILSTAR.svg" alt="" className="w-72" />
                         </div>
                         <div className="relative -top-20 bg-slate-50 flex flex-col w-full justify-center rounded-3xl mx-auto pt-40 px-5 pb-5"> 
                             <div className="text-center ">

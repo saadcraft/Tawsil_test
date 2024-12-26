@@ -6,6 +6,7 @@ import  Link  from 'next/link';
 import { Navigation } from "swiper/modules";
 import { IoIosArrowForward, IoIosArrowBack, IoIosSend } from "react-icons/io";
 import Data from './services-data';
+import Image from "next/image"
 
 
 import "swiper/css";
@@ -39,7 +40,7 @@ export default function Services() {
             return (
                 <SwiperSlide key={index}>
                     <div className="relative z-20 top-20 flex justify-center">
-                        <img src={service.img} alt="" className="w-72" />
+                        <Image width={100} height={100} src={service.img} alt="" className="w-72" />
                     </div>
                     <div className="relative -top-20 bg-slate-50 flex flex-col w-full justify-center rounded-3xl mx-auto pt-40 px-5 pb-5"> 
                         <div className="text-center">
