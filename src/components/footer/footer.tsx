@@ -1,4 +1,4 @@
-import { SmallLinkStyle } from "../styles/link_style"
+import { SmallLinkStyle } from "../styles/link-style"
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMail, IoLocation } from "react-icons/io5";
 
@@ -13,12 +13,12 @@ export default function Footer() {
                 <div className='grid grid-cols-2 md:gap-x-20 md:gap-y-20 gap-x-6 gap-y-6'>
                     <div className='flex flex-col'>
                         <div className='text-slate-50 text-lg font-semibold mb-3'>Company</div>
-                        <SmallLinkStyle >Home</SmallLinkStyle>
-                        <SmallLinkStyle >About Us</SmallLinkStyle>
-                        <SmallLinkStyle >Services</SmallLinkStyle>
-                        <SmallLinkStyle >Jobs</SmallLinkStyle>
-                        <SmallLinkStyle >Partners</SmallLinkStyle>
-                        <SmallLinkStyle >Contact Us</SmallLinkStyle>
+                        <SmallLinkStyle href="#" >Home</SmallLinkStyle>
+                        <SmallLinkStyle href="#">About Us</SmallLinkStyle>
+                        <SmallLinkStyle href="#">Services</SmallLinkStyle>
+                        <SmallLinkStyle href="#">Jobs</SmallLinkStyle>
+                        <SmallLinkStyle href="#">Partners</SmallLinkStyle>
+                        <SmallLinkStyle href="#">Contact Us</SmallLinkStyle>
                     </div>
                     <div className='flex flex-col'>
                         <div className='text-slate-50 text-lg font-semibold mb-3'>Stay up to date</div>
